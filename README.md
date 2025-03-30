@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+To-Do List Project
 
-## Getting Started
+Descrição (pt-br)
 
-First, run the development server:
+Este é um projeto de Lista de Tarefas (To-Do List) desenvolvido com Next.js + React. Ele permite que os usuários adicionem, excluam e gerenciem suas tarefas de forma simples e intuitiva.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Funcionalidades
+Adicionar novas tarefas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Excluir tarefas concluídas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Interface estilizada com CSS padrão
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Totalmente responsivo para dispositivos móveis e tablets
 
-## Learn More
+Tecnologias Utilizadas
+Next.js + React
 
-To learn more about Next.js, take a look at the following resources:
+CSS puro para estilização
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+TypeScript para tipagem segura
+----------------------------------
+Description (en-us)
+This is a To-Do List project built with Next.js + React. It allows users to add, delete, and manage their tasks in a simple and intuitive way.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Features
+Add new tasks
 
-## Deploy on Vercel
+Delete completed tasks
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Styled with pure CSS
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Fully responsive for mobile and tablets
+
+Technologies Used
+Next.js + React
+
+Pure CSS for styling
+
+TypeScript for type safety
