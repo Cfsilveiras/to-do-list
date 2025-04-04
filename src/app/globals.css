@@ -24,7 +24,8 @@ body::-webkit-scrollbar-thumb {
 
 body {
 background: rgb(0,0,0);
-background: linear-gradient(250deg, rgba(0,0,0,1) 0%, rgba(7,1,82,1) 36%, rgba(51,3,116,1) 96%);
+background: linear-gradient(250deg, rgb(245, 240, 168) 0%, 
+rgb(243, 224, 183) 36%, rgb(158, 158, 165) 96%);
 font-family: Poppins;
 
 
@@ -41,7 +42,7 @@ font-family: Poppins;
   padding: 1rem;
   letter-spacing: 0.4rem;
   border-bottom: 1px solid rgb(255, 253, 253);
-  color: rgb(194, 151, 255);
+  color: rgb(5, 5, 5);
   
 }
 
@@ -61,8 +62,8 @@ font-family: Poppins;
   text-align: center;
   border: 2px solid rgba(250, 250, 250, 0.8);
   border-radius: 0.8rem;
-  background: linear-gradient(250deg, rgba(0,0,0,1) 0%, rgba(7,1,82,1) 36%, rgba(51,3,116,1) 60%);
-  color: white;
+  background: linear-gradient(250deg, rgb(240, 201, 175) 0%, rgb(233, 235, 159) 36%, rgb(241, 234, 209) 60%);
+  color: rgb(0, 0, 0);
   padding: 1rem;
   letter-spacing: 0.1rem;
   width: 80%;
@@ -73,11 +74,11 @@ font-family: Poppins;
 
 .button{
   border: 2px solid rgba(255, 255, 255, 0.8);
-  background: linear-gradient(250deg, rgba(0,0,0,1) 0%, rgba(7,1,82,1) 36%, rgba(51,3,116,1) 60%);
-  color: white;
+  background: linear-gradient(250deg, rgb(240, 201, 175) 0%, rgb(233, 235, 159) 36%, rgb(241, 234, 209) 60%);
   padding: 1rem;
   letter-spacing: 0.1rem;
   margin-left: 2rem;
+  color: black;
   width: 8rem;
   display: flex;
   justify-content: center;
@@ -88,14 +89,14 @@ font-family: Poppins;
 
 .todo-list{
   border: 0.1rem solid rgba(255, 255, 255, 0.8);
-  border-radius: 0.1rem 4rem 0.1rem 4rem;;
+  border-radius: 0.1rem 2rem 0.1rem 2rem;;
   display: flexbox;
   height: auto;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 1rem;
   padding: 2rem;
-  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0.1rem 0.1rem 0.2rem 0.2rem rgba(233, 228, 228, 0.5);
   white-space: normal;
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -110,12 +111,12 @@ font-family: Poppins;
 }
 
 .button-item{
-  background: linear-gradient(250deg, rgba(0,0,0,1) 0%, rgba(7,1,82,1) 36%, rgba(51,3,116,1) 60%);
+  background: linear-gradient(250deg, rgb(240, 201, 175) 0%, rgb(233, 235, 159) 36%, rgb(241, 234, 209) 60%);
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0.8rem;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 0.6rem;
   border: 2px solid rgba(255, 255, 255, 0.8);
   border-radius: 0.1rem 1rem 0.1rem 1rem;
@@ -125,7 +126,7 @@ font-family: Poppins;
 }
 .span{
   border-bottom: 2px solid rgba(255, 255, 255, 0.8);
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 0.5rem;
   border-radius: 0.1rem 1rem;
   letter-spacing: 0.2rem;
@@ -144,11 +145,11 @@ font-family: Poppins;
   text-align: center;
   margin-top: 1rem;
   padding: 1rem;
-  color: rgb(194, 151, 255);
+  color: rgb(0, 0, 0);
 }
 
 .footer span{
-  color: rgb(194, 151, 255);
+  color: rgb(0, 0, 0);
   font-family: Poppins;
   font-size: 1rem;
   letter-spacing: 0.1rem;
@@ -168,7 +169,7 @@ font-family: Poppins;
 }
 
 .linkgit:hover{
-  color: rgb(43, 255, 0);
+  color: rgb(245, 141, 245);
   text-decoration: none;
   letter-spacing: 0.3rem;
   transform: scale(1.1);
@@ -250,6 +251,14 @@ font-family: Poppins;
       font-size: 0.8rem;
       
     }
+
+    .container-bible{
+      border: 2px solid red;
+      background: black;
+    }
+
+
+
 
   }
   
