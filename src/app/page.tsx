@@ -7,8 +7,9 @@ export default function Home() {
 
     
 <main>
+<DailyBible />
   <TodoList />
-  <DailyBible />
+  
 </main>
 
   

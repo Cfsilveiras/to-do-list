@@ -155,6 +155,40 @@ font-family: Poppins;
   letter-spacing: 0.1rem;
 }
 
+.container-bible{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(250deg, rgb(240, 201, 175) 0%, rgb(233, 235, 159) 36%, rgb(241, 234, 209) 60%);
+  border-radius: 2rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+
+.container-bible h2{
+  color: rgb(247, 159, 159);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  padding: 1rem;
+}
+
+.container-bible p{
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  padding: 1rem;
+}
+
 
 /* Hover area */
 .linkgit{
@@ -252,11 +286,20 @@ font-family: Poppins;
       
     }
 
-    .container-bible{
-      border: 2px solid red;
-      background: black;
+    .container-bible {
+      padding: 1rem;
+      margin-top: 0.5rem;
+      font-size: 1rem;
     }
 
+    .container-bible h2 {
+      font-size: 0.9rem;
+      padding: 0.5rem;
+    }
+    .container-bible p {
+      font-size: 0.6rem;
+      padding: 0.5rem;
+    }
 
 
 

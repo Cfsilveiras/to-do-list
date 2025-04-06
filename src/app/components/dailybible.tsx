@@ -19,7 +19,7 @@ export default function DailyVerse() {
     fetchVerse();
   }, []);
 
-  
+
   return ( 
   
   <div className="container-bible">
